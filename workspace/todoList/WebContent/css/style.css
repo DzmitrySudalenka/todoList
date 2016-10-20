@@ -1,0 +1,102 @@
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+header,
+section,
+footer {
+	margin: 0 auto;
+}
+header,
+footer {
+	width: 700px;
+	border: 1px solid;
+	padding: 5px 10px;
+}
+header {
+	margin-top: 50px;
+}
+header label {
+	float: left;
+}
+nav.left {
+	float: left;
+}
+nav.left a {
+	margin-left: 20px;
+}
+nav.right {
+	float: right;
+}
+nav.right a {
+	margin-right: 20px;
+}
+section {
+	width: 680px;
+	min-height: 300px;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	padding: 20px;
+}
+input[type='text'],
+input[type='password'],
+input[type='date'],
+input[type='file'],
+.inputs,
+textarea {
+	margin-bottom: 10px;
+	width: 200px;
+}
+textarea {
+	max-width: 100%;
+	min-height: 100px;
+}
+.report {
+	color: red;
+	margin-bottom: 10px;
+}
+.logout {
+	margin-bottom: 0px;
+}
+menu {
+	display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+table.tasks {
+	border-collapse: collapse;
+	width: 100%;
+}
+table.tasks th,
+table.tasks td {
+	border: 1px solid black;
+	padding: 0 5px;
+}
+table.tasks td:first-child,
+table.tasks td.date,
+table.tasks td.file {
+	width:1%;
+    white-space:nowrap;
+}
+.file {
+	text-align: center;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.btns {
+	float: right;
+	margin-top: 20px;
+}
+.btns button {
+	margin-left: 10px;
+}
+.msg {
+	margin-bottom: 20px;
+}
